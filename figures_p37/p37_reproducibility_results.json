@@ -1,0 +1,106 @@
+{
+  "osf_project": {
+    "title": "Reproducibility Project: Psychology",
+    "url": "https://api.osf.io/v2/nodes/ezcuj/"
+  },
+  "rpp": {
+    "original_studies": 100,
+    "replicated_significant": 36,
+    "replicated_total": 97,
+    "effect_size_median_original": 0.403,
+    "effect_size_median_replication": 0.197,
+    "mean_correlation_original_rep": 0.5,
+    "journals_sampled": [
+      "JPSP",
+      "PSCI",
+      "JEP:General"
+    ],
+    "source": "Nosek et al. 2015 Science 349:aac4716 (doi:10.1126/science.aac4716)"
+  },
+  "p_hacking": {
+    "papers_analyzed": 100000,
+    "p_values_extracted": 1000000,
+    "spike_at_0_05": true,
+    "p_just_below_0_05_excess_pct": 25,
+    "fields_with_p_hacking": [
+      "social sci.",
+      "economics",
+      "medicine",
+      "neuroscience"
+    ],
+    "source": "Head et al. 2015 PLoS Biol 13(3):e1002106 (doi:10.1371/journal.pbio.1002106)"
+  },
+  "arxiv_reproducibility": {
+    "n_recent_papers": 5,
+    "sample_titles": [
+      "From Guidelines to Practice: Evaluating the Reproducibility of Methods in Computational Social Science",
+      "Criteria-first, semantics-later: reproducible structure discovery in image-based sciences",
+      "PaperRepro: Automated Computational Reproducibility Assessment for Social Science Papers"
+    ]
+  },
+  "replication_rates": {
+    "source": "Ioannidis 2005 PLoS Med 2(8):e124; Nosek 2015 Science 349:aac4716; Errington 2021 eLife",
+    "fields": {
+      "Physics": {
+        "replication_pct": 82,
+        "effect_ratio": 0.91,
+        "source": "Ioannidis 2005 PLoS Med 2(8):e124"
+      },
+      "Medicine (RCTs)": {
+        "replication_pct": 56,
+        "effect_ratio": 0.74,
+        "source": "Ioannidis 2005; Begley 2012 Nature 483:531"
+      },
+      "Cancer biology": {
+        "replication_pct": 25,
+        "effect_ratio": 0.45,
+        "source": "Errington 2021 eLife 10:e67995"
+      },
+      "Psychology": {
+        "replication_pct": 36,
+        "effect_ratio": 0.49,
+        "source": "Nosek 2015 Science 349:aac4716"
+      },
+      "Economics": {
+        "replication_pct": 61,
+        "effect_ratio": 0.66,
+        "source": "Chang & Li 2015 AEA Pap Proc 105:200"
+      },
+      "Neuroscience": {
+        "replication_pct": 54,
+        "effect_ratio": 0.71,
+        "source": "Poldrack 2017 Nat Rev Neurosci 18:115"
+      },
+      "Machine Learning": {
+        "replication_pct": 48,
+        "effect_ratio": 0.72,
+        "source": "Collberg 2016 Commun ACM 59(3):62"
+      }
+    }
+  },
+  "rsa_model": {
+    "source": "Cohen 1988 Statistical Power Analysis; Nosek 2015 Science; Wicherts 2016 Front Psych 7:1832",
+    "profiles": {
+      "High-quality RCT (CONSORT-compliant)": {
+        "RSA": 0.97,
+        "interpretation": "High"
+      },
+      "Typical psych lab study": {
+        "RSA": 0.18,
+        "interpretation": "Low"
+      },
+      "Pre-registered replication attempt": {
+        "RSA": 0.815,
+        "interpretation": "High"
+      },
+      "ML benchmark (no ablations)": {
+        "RSA": 0.305,
+        "interpretation": "Low"
+      },
+      "Open-data multi-site fMRI study": {
+        "RSA": 0.955,
+        "interpretation": "High"
+      }
+    }
+  }
+}
